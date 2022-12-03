@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.bg-propio {
+  background-color: black;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: #eb5b25;
+  border: 2px #eb5b25 solid;
+  border-radius: 5px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.carousel-caption h5 {
+  background-color: #eb5b25;
+  opacity: 80%;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  top: 20rem;
+}
+
+.carousel-caption p {
+  background-color: black;
+  opacity: 60%;
+}
+
+.carousel-control-next-icon {
+  background-color: #eb5b25;
+}
+
+.carousel-control-prev-icon {
+  background-color: #eb5b25;
+}
+
+/* MAIN */
+.padding-intro {
+  padding: 50px;
+}
+
+.justify-content-evenly {
+  padding-bottom: 50px;
+  text-align: justify;
+}
+
+.videointro {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+/* FOOTER */
+.copy {
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  padding: 5px;
+}
+
+/* SECCION ESPECIALIDADES */
+/* TRATAMIENTOS */
+.img_botones {
+  background-image: url("../images/slider1.png");
+  margin-right: 12px;
+  margin-left: 12px;
+  width: auto;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.boton1, .boton2, .boton3 {
+  color: white;
+  background-color: #eb5b25;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: solid 2px black;
+  border-radius: 200px;
+}
+
+.boton1:hover, .boton2:hover, .boton3:hover {
+  background-color: black;
+  border: solid 2px #eb5b25;
+}
+
+.botonesok {
+  align-items: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .boton1, .boton2, .boton3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .h5trata {
+    text-align: center;
+  }
+}
+/* TRATAMIENTOS CORROSIVOS SECCION */
+.bg-trata {
+  background-color: #eb5b25;
+  margin-top: 20px;
+}
+
+.h5trata {
+  font-size: 30px;
+}
+
+.clearfix {
+  margin-top: 20px;
+}
+
+.clearfix img {
+  width: 400px;
+  height: auto;
+}
+
+.p1trata, .p2trata {
+  margin-top: 30px;
+}
+
+.p1mant {
+  margin-top: 30px;
+  text-align: end;
+}
+
+.p2mantList {
+  text-align: end;
+  list-style-type: none;
+}
+
+.p1limp, .p2limp {
+  margin-top: 30px;
+}
+
+/* SECCION EQUIPAMIENTO */
+.fila1, .fila2 {
+  margin-top: 100px;
+}
+
+.fila2 {
+  margin-bottom: 100px;
+}
+
+.imgequip {
+  margin-top: 20px;
+}
+
+/* CALIDAD */
+.fila1calidad {
+  margin-top: 100px;
+}
+
+.parrafocalidad {
+  margin-top: 100px;
+  background-color: #eb5b25;
+  color: white;
+  border-radius: 10px;
+  border: black solid 2px;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+/* CONTACTO */
+.contacto {
+  margin-top: 100px;
+}
+
+.imgequipbanner {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.contactoform {
+  background-color: #eb5b25;
+  padding: 20px;
+  border-radius: 10px;
+  border: black solid 2px;
+}
+
+.contactomapa {
+  background-color: #eb5b25;
+  padding: 20px;
+  border-radius: 10px;
+  border: black solid 2px;
+}
+
+@media only screen and (max-width: 575px) {
+  .mapamapa {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

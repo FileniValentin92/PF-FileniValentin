@@ -1,3 +1,7 @@
+//variables 
+
+$colorPrincipal: #eb5b25;
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +17,7 @@
 
 .navbar-nav {
     --bs-nav-link-hover-color: #eb5b25;
-    border: 2px #eb5b25 solid;
+    border: 2px $colorPrincipal solid;
     border-radius: 5px;
 
 }
@@ -26,7 +30,7 @@
 
 
 .carousel-caption h5{
-    background-color: #eb5b25;
+    background-color: $colorPrincipal;
     opacity: 80%;
     border-radius: 10px;
 
@@ -43,11 +47,11 @@
 }
 
 .carousel-control-next-icon {
-    background-color: #eb5b25;
+    background-color: $colorPrincipal;
 }
 
 .carousel-control-prev-icon {
-    background-color: #eb5b25; 
+    background-color: $colorPrincipal; 
 }
 
 
@@ -179,7 +183,6 @@
 .p1limp, .p2limp {
     margin-top: 30px;
 }
-
 
 /* SECCION EQUIPAMIENTO */
 
