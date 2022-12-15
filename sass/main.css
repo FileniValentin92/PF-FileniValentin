@@ -19,6 +19,7 @@
   color: white;
 }
 
+/* INDEX */
 .carousel-caption h5 {
   background-color: #eb5b25;
   opacity: 80%;
@@ -198,5 +199,16 @@
 @media only screen and (max-width: 575px) {
   .mapamapa {
     width: 100%;
+  }
+  .clearfix img {
+    width: auto;
+    height: auto;
+  }
+  .videointro {
+    width: auto;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -29,6 +29,8 @@ $colorPrincipal: #eb5b25;
 }
 
 
+/* INDEX */
+
 .carousel-caption h5{
     background-color: $colorPrincipal;
     opacity: 80%;
@@ -164,6 +166,8 @@ $colorPrincipal: #eb5b25;
     height: auto;
 }
 
+
+
 .p1trata, .p2trata {
     margin-top: 30px;
 }
@@ -247,6 +251,20 @@ $colorPrincipal: #eb5b25;
 
     .mapamapa {
         width: 100%;
+    
+    }
+
+    .clearfix img {
+        width: auto;
+        height: auto;
+    }
+
+    .videointro {
+        width: auto;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
     
     }
 }
